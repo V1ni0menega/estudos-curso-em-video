@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo das Propriedades CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #b34343;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e7bcbc;
+      color: #3c1f1f;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9e6e6;
+    }
+
+    .exemplo {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #fff0f0;
+      border-radius: 10px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: background-color 0.5s ease;
+    }
+
+    .exemplo:hover {
+      background-color: #ffd6d6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Propriedades CSS – Resumo Visual</h1>
+
+  <table>
+    <tr>
+      <th>Propriedade</th>
+      <th>Para que serve</th>
+    </tr>
+    <tr>
+      <td><code>color</code></td>
+      <td>Cor do texto</td>
+    </tr>
+    <tr>
+      <td><code>background-color</code></td>
+      <td>Cor de fundo</td>
+    </tr>
+    <tr>
+      <td><code>font-size</code></td>
+      <td>Tamanho da letra</td>
+    </tr>
+    <tr>
+      <td><code>font-family</code></td>
+      <td>Fonte do texto</td>
+    </tr>
+    <tr>
+      <td><code>text-align</code></td>
+      <td>Alinhamento do texto</td>
+    </tr>
+    <tr>
+      <td><code>padding</code></td>
+      <td>Espaço interno do elemento</td>
+    </tr>
+    <tr>
+      <td><code>margin</code></td>
+      <td>Espaço externo ao redor do elemento</td>
+    </tr>
+    <tr>
+      <td><code>border</code></td>
+      <td>Adiciona borda ao redor</td>
+    </tr>
+    <tr>
+      <td><code>width / height</code></td>
+      <td>Largura e altura do elemento</td>
+    </tr>
+    <tr>
+      <td><code>display</code></td>
+      <td>Tipo de exibição (ex: block, flex, inline)</td>
+    </tr>
+    <tr>
+      <td><code>position</code></td>
+      <td>Posicionamento (relative, absolute, fixed...)</td>
+    </tr>
+    <tr>
+      <td><code>box-shadow</code></td>
+      <td>Sombra em volta da caixa</td>
+    </tr>
+    <tr>
+      <td><code>text-shadow</code></td>
+      <td>Sombra no texto</td>
+    </tr>
+    <tr>
+      <td><code>transition</code></td>
+      <td>Animação suave de mudanças</td>
+    </tr>
+    <tr>
+      <td><code>:hover</code></td>
+      <td>Estilo ao passar o mouse sobre o elemento</td>
+    </tr>
+  </table>
+
+  <div class="exemplo">
+    Passe o mouse aqui! <br> Este bloco usa <code>box-shadow</code>, <code>transition</code> e <code>:hover</code>
+  </div>
+
+</body>
+</html>
