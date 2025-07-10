@@ -1,9 +1,8 @@
 /* Fonte personalizada */
 @font-face {
   font-family: 'idroid';
-  src: url('fontes/idroid.otf') format('opentype');
+  src: url('fontes/idroid.otf');
 }
-
 /* Reset e ajustes básicos */
 * {
   margin: 0;
@@ -13,7 +12,7 @@
 
 /* Corpo com fundo neutro */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'idroid', sans-serif;
   background-color: #f0f0f0;
 }
 
@@ -54,6 +53,7 @@ a.externo::after {
 }
 
 /* Títulos */
+
 h2 {
   font-size: 20px;
   font-family: 'idroid', sans-serif;
