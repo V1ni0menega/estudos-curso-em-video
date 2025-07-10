@@ -8,12 +8,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 /* Corpo com fundo neutro */
 body {
   font-family: 'idroid', sans-serif;
   background-color: #f0f0f0;
+
 }
 
 /* Estilo geral da "caixa" */
